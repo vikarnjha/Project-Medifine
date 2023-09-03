@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+li {
+  list-style-type: none;
+  font-weight: 700;
+  margin-right: 50px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: #f0f4f5;
+  max-width: 1440px;
+  margin: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 50px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85vh;
+}
+.content_text {
+  margin: 25px 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-image: url(./img/stethoscope.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: 70%;
+  background-position: center center;
+}
+.green_corner {
+  width: 30px;
+}
+.orange_corner {
+  width: 30px;
+}
+.mouse {
+  position: relative;
+  right: -30px;
+  bottom: 0;
+  width: 30px;
+}
+.corner_bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: end;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+button {
+  width: fit-content;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: #20bc7e;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+h1 {
+  font-size: 80px;
+}
+
+p {
+  color: #7c7c7c;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.green_circle,
+.yellow_circle {
+  position: absolute;
+  right: 0;
+}
+.green_circle {
+  width: 30%;
+  bottom: 30px;
+}
+
+.yellow_circle {
+  width: 24%;
+  bottom: 50px;
+}
+
+.doctor {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 90%;
+}
